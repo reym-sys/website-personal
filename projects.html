@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Personal</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- CSS Utama -->
+    <link rel="stylesheet" href="css/pages/projects.css">
+
+    <link rel="stylesheet" href="css/components/navbar.css">
+    <link rel="stylesheet" href="css/components/footer.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="index.html" class="navbar-logo">Reyznmhd</a>
+                <ul class="navbar-menu">
+                <li><a href="index.html" class="navbar-link">Home</a></li>
+                <li><a href="projects.html" class="navbar-link">Projects</a></li>
+                <li><a href="achievements.html" class="navbar-link">Achievements</a></li>
+                <li><a href="contact.html" class="navbar-link">Contact</a></li>
+                </ul>
+                <button class="navbar-toggle" id="mobile-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="projects-section">
+        <div class="projects-header">
+            <h1 class="projects-title">Projects</h1>
+            <p class="projects-subtitle">Selected works showcasing Front-End, UI/UX and fullstack prototypes.</p>
+            <div class="projects-controls">
+                <div class="projects-filter">
+                    <button class="projects-filter-btn active" data-filter="all">All</button>
+                    <button class="projects-filter-btn" data-filter="web">Web</button>
+                    <button class="projects-filter-btn" data-filter="uiux">UI/UX</button>
+                </div>
+                <div class="projects-search">
+                    <input type="search" id="project-search" placeholder="Search projects..." />
+                </div>
+            </div>
+        </div>
+
+        <div class="projects-grid">
+            <article class="project-card" data-category="uiux">
+                <div class="project-media">
+                    <img src="images/projects/Poster Roblox.png" alt="UI Kit Preview" class="project-image">
+                </div>
+                <div class="project-body">
+                    <h3 class="project-title">Re-Design Aplikasi Roblox</h3>
+                    <p class="project-desc">Meredesain sebuah aplikasi Roblox dengan menambahkan fitur category card untuk memudahkan pengguna menjelajahi kategori sesuai pengalaman mereka, serta pilihan checkbox untuk memilih banyak kategori sekaligus, sehingga interaksi menjadi lebih intuitif dan menyenangkan.</p>
+                    <div class="project-tags">
+                        <span class="tag">Figma</span>
+                        <span class="tag">Prototyping</span>
+                        <span class="tag">Teamwork</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://www.figma.com/proto/HqG2gB53mbhkAHqsswYvY8/Team-4---UI-Design?node-id=0-1&t=e3ldbjx9LUaR2sFS-1" class="btn-primary small"><i class="fas fa-eye"></i> View</a>
+                        <a href="https://www.figma.com/design/HqG2gB53mbhkAHqsswYvY8/Team-4---UI-Design?node-id=0-1&t=e3ldbjx9LUaR2sFS-1" target="_blank" class="btn-secondary small"><i class="fas fa-external-link-alt"></i> Figma</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card" data-category="uiux">
+                <div class="project-media">
+                    <img src="images/projects/Poster Finity.png" alt="UI Kit Preview" class="project-image">
+                </div>
+                <div class="project-body">
+                    <h3 class="project-title">FINITY: Find your community</h3>
+                    <p class="project-desc">Aplikasi ini mempermudah kamu menemukan komunitas sesuai minat dan keinginanmu, dengan pencarian cepat, filter cerdas, dan antarmuka yang intuitif untuk pengalaman yang menyenangkan.</p>
+                    <div class="project-tags">
+                        <span class="tag">Figma</span>
+                        <span class="tag">Prototyping</span>
+                        <span class="tag">Teamwork</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://www.figma.com/proto/3vXEiunae8yTe6c9PGmgzZ/FINITY--Copy-?node-id=0-1&t=3mfB7fK6bh8kBdpW-1" class="btn-primary small"><i class="fas fa-eye"></i> View</a>
+                        <a href="https://www.figma.com/design/3vXEiunae8yTe6c9PGmgzZ/FINITY--Copy-?node-id=0-1&t=3mfB7fK6bh8kBdpW-1" target="_blank" class="btn-secondary small"><i class="fas fa-external-link-alt"></i> Figma</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2025 My Portfolio. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="https://www.instagram.com/reyznmhd?utm_source=qr&igsh=MWVqYm44NTk5MTFrdQ==" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/reyzan-muhammad-hafizh-b581b42bb/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/reym-sys" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:reyzanmhafizh06@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script>
+        const toggle = document.querySelector('.navbar-toggle');
+        const menu = document.querySelector('.navbar-menu');
+
+        toggle.addEventListener('click', () => {
+            toggle.classList.toggle('active');
+            menu.classList.toggle('active');
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+        const filterButtons = document.querySelectorAll('.projects-filter-btn');
+        const cards = document.querySelectorAll('.project-card');
+        const searchInput = document.getElementById('project-search');
+
+            filterButtons.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    filterButtons.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    const filter = btn.getAttribute('data-filter');
+                    cards.forEach(card => {
+                        if (filter === 'all' || card.dataset.category === filter) {
+                            card.style.display = '';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+
+            searchInput.addEventListener('input', () => {
+                const q = searchInput.value.toLowerCase().trim();
+                cards.forEach(card => {
+                    const title = card.querySelector('.project-title').textContent.toLowerCase();
+                    const desc = card.querySelector('.project-desc').textContent.toLowerCase();
+                    if (title.includes(q) || desc.includes(q)) {
+                        card.style.display = '';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
