@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Personal</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- CSS Utama -->
+    <link rel="stylesheet" href="css/pages/contact.css">
+
+    <link rel="stylesheet" href="css/components/navbar.css">
+    <link rel="stylesheet" href="css/components/footer.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="index.html" class="navbar-logo">Reyznmhd</a>
+                <ul class="navbar-menu">
+                <li><a href="index.html" class="navbar-link">Home</a></li>
+                <li><a href="projects.html" class="navbar-link">Projects</a></li>
+                <li><a href="achievements.html" class="navbar-link">Achievements</a></li>
+                <li><a href="contact.html" class="navbar-link">Contact</a></li>
+                </ul>
+                <button class="navbar-toggle" id="mobile-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="contact-page">
+        <h2 class="section-title">
+            <i class="fas fa-envelope"></i> Contact Me
+        </h2>
+
+        <div class="contact-container">
+            <!-- Left Info -->
+            <div class="contact-info">
+                <h3 class="contact-subtitle">Let’s Connect!</h3>
+
+                <ul class="contact-details">
+                    <li><i class="fas fa-map-marker-alt"></i> Petojo Utara, Gambir, Kota Jakarta Pusat, Jakarta, Indonesia</li>
+                    <li><i class="fas fa-envelope"></i> reyzanmhafizh06@gmail.com</li>
+                    <li><i class="fas fa-phone"></i> +62 813-1658-8775</li>
+                </ul>
+
+                <div class="contact-socials">
+                    <a href="https://github.com/reym-sys" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/reyznmhd?utm_source=qr&igsh=MWVqYm44NTk5MTFrdQ==" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Right Actions -->
+            <div class="contact-actions">
+                <h3 class="contact-subtitle">Quick Contact</h3>
+                <p class="contact-desc">Pilih cara tercepat untuk menghubungi saya:</p>
+
+                <div class="contact-buttons">
+                    <a href="mailto:reyzanmhafizh06@gmail.com" class="btn-email">
+                        <i class="fas fa-paper-plane"></i> Send Email
+                    </a>
+                    <a href="https://wa.me/6281316588775" target="_blank" class="btn-wa">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                    <a href="https://www.linkedin.com/in/reyzan-muhammad-hafizh-b581b42bb/" target="_blank" class="btn-kedin">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2025 My Portfolio. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="https://www.instagram.com/reyznmhd?utm_source=qr&igsh=MWVqYm44NTk5MTFrdQ==" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/reyzan-muhammad-hafizh-b581b42bb/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/reym-sys" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:reyzanmhafizh06@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script>
+        const toggle = document.querySelector('.navbar-toggle');
+        const menu = document.querySelector('.navbar-menu');
+
+        toggle.addEventListener('click', () => {
+            toggle.classList.toggle('active');
+            menu.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>
